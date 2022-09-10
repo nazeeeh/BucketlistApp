@@ -4,7 +4,7 @@ function Footer(){
     const customDate = date.getFullYear()
 
     return ( 
-        <div>
+        <div className="footer">
             <p>Copyright ⓒ {customDate}</p>
         </div>
     )

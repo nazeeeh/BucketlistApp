@@ -1,7 +1,7 @@
 
 function Header(){
     return (
-        <div>
+        <div className="header">
             <h1>Bucket List App</h1>
         </div>
     )

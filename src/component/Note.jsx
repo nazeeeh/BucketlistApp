@@ -1,8 +1,8 @@
 
 function Note(){
     return (
-        <div>
-            <h3>Here are some Useful tips to get started</h3>
+        <div className="note">
+            <h1>Here are some Useful tips to get started</h1>
             <p>Firstly you have to note that not every carpe is a hero</p>
         </div>
     )
