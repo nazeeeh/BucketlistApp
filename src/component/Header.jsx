@@ -1,6 +1,10 @@
 
 function Header(){
-    return <h1>Bucket List App</h1>
+    return (
+        <div>
+            <h1>Bucket List App</h1>
+        </div>
+    )
 }
 
 export default Header;

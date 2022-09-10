@@ -1,6 +1,13 @@
 
 function Footer(){
-    return <p>This is my footer</p>
+    const date = new Date()
+    const customDate = date.getFullYear()
+
+    return ( 
+        <div>
+            <p>Copyright ⓒ {customDate}</p>
+        </div>
+    )
 }
 
 export default Footer;
